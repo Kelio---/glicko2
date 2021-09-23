@@ -2,7 +2,7 @@
 
 namespace laxity7\glicko2;
 
-class Match extends BaseMatch
+class MatchGame extends BaseMatch
 {
     private const RESULT_WIN = 1;
     private const RESULT_DRAW = 0.5;
@@ -69,7 +69,7 @@ class Match extends BaseMatch
     }
 
     /**
-     * @param Match $match
+     * @param MatchGame $match
      */
     public function calculate(): void
     {

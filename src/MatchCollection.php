@@ -20,7 +20,7 @@ class MatchCollection extends BaseMatch
     /**
      * @param Match $match
      */
-    public function addMatch(Match $match): void
+    public function addMatch(MatchGame $match): void
     {
         $this->matches->append($match);
     }

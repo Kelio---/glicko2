@@ -20,13 +20,13 @@ The preferred way to install this extension is through [Composer](http://getcomp
 Either run
 
 ```
-php composer.phar require Kelio---/glicko2 "~1.0.0"
+php composer.phar require KelioDev/glicko2 "~1.0.0"
 ```
 
 or add
 
 ```
-"Kelio---/glicko2": "~1.0.0"
+"KelioDev/glicko2": "~1.0.0"
 ```
 
 to the require section of your ```composer.json```
@@ -38,7 +38,7 @@ For ease of understanding take ActiveRecord pattern.
 Somewhere create object. Attribute names can be any
 
 ```php
-use laxity7\glicko2\Player;
+use keliodev\glicko2\Player;
 // ...
 public function createUserRating(int $userId)
 {
@@ -58,9 +58,9 @@ public function createUserRating(int $userId)
 Ok, let's play
 
 ```php
-use laxity7\glicko2\MatchGame;
-use laxity7\glicko2\MatchCollection;
-use laxity7\glicko2\Player;
+use keliodev\glicko2\MatchGame;
+use keliodev\glicko2\MatchCollection;
+use keliodev\glicko2\Player;
 
 $player1 = new Player($userRating1->rating, $userRating1->rating_deviation, $userRating1->rating_volatility);
 $player2 = new Player($userRating2->rating, $userRating2->rating_deviation, $userRating2->rating_volatility);

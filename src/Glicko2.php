@@ -1,6 +1,6 @@
 <?php
 
-namespace kelio\glicko2;
+namespace keliodev\glicko2;
 
 /**
  * Every player in the Glicko-2 system has a rating, r, a rating deviation, RD, and a rating

@@ -1,6 +1,6 @@
 <?php
 
-namespace kelio\glicko2;
+namespace keliodev\glicko2;
 
 final class CalculationResult
 {

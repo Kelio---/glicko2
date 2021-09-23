@@ -1,5 +1,5 @@
 {
-    "name": "kelio/glicko2",
+    "name": "keliodev/glicko2",
     "description": "A PHP implementation of glicko2 rating system",
     "type": "library",
     "keywords": [
@@ -8,7 +8,7 @@
         "rating",
         "ranking"
     ],
-    "homepage": "https://github.com/Kelio---/glicko2",
+    "homepage": "https://github.com/KelioDev/glicko2",
     "license": "MIT",
     "authors": [
         {
@@ -23,8 +23,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/Kelio---/glicko2/issues",
-        "source": "https://github.com/Kelio---/glicko2"
+        "issues": "https://github.com/KelioDev/glicko2/issues",
+        "source": "https://github.com/KelioDev/glicko2"
     },
     "require": {
         "php": ">=7.1.0"
@@ -34,12 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "laxity7\\glicko2\\": "src"
+            "keliodev\\glicko2\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "laxity7\\glicko2\\Test\\": "tests"
+            "keliodev\\glicko2\\Test\\": "tests"
         }
     }
 }

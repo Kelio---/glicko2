@@ -1,6 +1,6 @@
 <?php
 
-namespace laxity7\glicko2;
+namespace kelio\glicko2;
 
 use ArrayIterator;
 use ArrayObject;

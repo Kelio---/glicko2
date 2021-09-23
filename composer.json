@@ -1,5 +1,5 @@
 {
-    "name": "Kelio---/glicko2",
+    "name": "kelio/glicko2",
     "description": "A PHP implementation of glicko2 rating system",
     "type": "library",
     "keywords": [

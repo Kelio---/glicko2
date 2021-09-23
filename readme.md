@@ -1,3 +1,8 @@
+
+##It's a fork to rename the class Match into MatchGame because the work "match" is a reserved keyword in PHP 8.0##
+
+
+
 # Glicko2 rating system
 
 [![License](https://img.shields.io/github/license/laxity7/glicko2.svg)](https://github.com/laxity7/glicko2/blob/master/LICENSE)
@@ -15,13 +20,13 @@ The preferred way to install this extension is through [Composer](http://getcomp
 Either run
 
 ```
-php composer.phar require laxity7/glicko2 "~1.0.0"
+php composer.phar require Kelio---/glicko2 "~1.0.0"
 ```
 
 or add
 
 ```
-"laxity7/glicko2": "~1.0.0"
+"Kelio---/glicko2": "~1.0.0"
 ```
 
 to the require section of your ```composer.json```
@@ -53,7 +58,7 @@ public function createUserRating(int $userId)
 Ok, let's play
 
 ```php
-use laxity7\glicko2\Match;
+use laxity7\glicko2\MatchGame;
 use laxity7\glicko2\MatchCollection;
 use laxity7\glicko2\Player;
 
@@ -61,16 +66,16 @@ $player1 = new Player($userRating1->rating, $userRating1->rating_deviation, $use
 $player2 = new Player($userRating2->rating, $userRating2->rating_deviation, $userRating2->rating_volatility);
 
 // match chain
-$match1 = new Match($player1, $player2, 1, 0);
+$match1 = new MatchGame($player1, $player2, 1, 0);
 $match1->calculate();
 
-$match2 = new Match($player1, $player2, 3, 2);
+$match2 = new MatchGame($player1, $player2, 3, 2);
 $match2->calculate();
 
 // or match collection
 $matchCollection = new MatchCollection();
-$matchCollection->addMatch(new Match($player1, $player2, 1, 0));
-$matchCollection->addMatch(new Match($player1, $player2, 3, 2));
+$matchCollection->addMatch(new MatchGame($player1, $player2, 1, 0));
+$matchCollection->addMatch(new MatchGame($player1, $player2, 3, 2));
 $matchCollection->calculate();
 
 $newPlayer1Rating = $player1->getRating();

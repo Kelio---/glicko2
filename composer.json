@@ -1,5 +1,5 @@
 {
-    "name": "laxity7/glicko2",
+    "name": "Kelio---/glicko2",
     "description": "A PHP implementation of glicko2 rating system",
     "type": "library",
     "keywords": [
@@ -8,7 +8,7 @@
         "rating",
         "ranking"
     ],
-    "homepage": "https://github.com/laxity7/glicko2",
+    "homepage": "https://github.com/Kelio---/glicko2",
     "license": "MIT",
     "authors": [
         {
@@ -23,8 +23,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/laxity7/glicko2/issues",
-        "source": "https://github.com/laxity7/glicko2"
+        "issues": "https://github.com/Kelio---/glicko2/issues",
+        "source": "https://github.com/Kelio---/glicko2"
     },
     "require": {
         "php": ">=7.1.0"

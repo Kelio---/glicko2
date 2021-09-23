@@ -1,9 +1,9 @@
 
-##It's a fork to rename the class Match into MatchGame because the work "match" is a reserved keyword in PHP 8.0##
-
-
-
 # Glicko2 rating system
+
+# --------------------------------------------------------------------------------------------------------------
+# It's a fork to rename the class Match into MatchGame because the work "match" is a reserved keyword in PHP 8.0
+# --------------------------------------------------------------------------------------------------------------
 
 [![License](https://img.shields.io/github/license/laxity7/glicko2.svg)](https://github.com/laxity7/glicko2/blob/master/LICENSE)
 [![Latest Stable Version](https://img.shields.io/packagist/v/laxity7/glicko2.svg)](https://packagist.org/packages/laxity7/glicko2)
